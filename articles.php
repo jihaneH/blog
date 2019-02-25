@@ -9,4 +9,12 @@
  * 
  */
 
+require_once('loader.php');
+
+// recuperer les articles
+$articles = getAllArticle();
+
+// charger la vue
+require_once('views/articles.gestion.php');
+
 ?>
