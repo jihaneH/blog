@@ -8,9 +8,9 @@
  require_once 'config.php';
 
  require_once 'helpers/database.php';
- require_once 'helpers/tools.php';
 
  require_once 'models/article.php';
+ require_once 'models/user.php';
 
 
 
